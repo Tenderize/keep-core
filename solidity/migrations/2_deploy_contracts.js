@@ -25,7 +25,7 @@ const KeepRegistry = artifacts.require("./KeepRegistry.sol");
 const GasPriceOracle = artifacts.require("./GasPriceOracle.sol");
 const StakingPortBacker = artifacts.require("./StakingPortBacker.sol");
 
-let initializationPeriod = 43200; // ~12 hours
+let initializationPeriod = 1; // ~12 hours
 const dkgContributionMargin = 1; // 1%
 
 module.exports = async function(deployer, network) {
